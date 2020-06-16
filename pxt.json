@@ -1,0 +1,20 @@
+{
+    "name": "pxt-calliope-test3",
+    "version": "1.0.7",
+    "description": "test3 minimal extension",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "extension.cpp",
+        "extension.ts",
+        "shims.d.ts"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ferenc-hechler/pxt-calliope-test3.git"
+    },
+    "public": true
+}

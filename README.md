@@ -1,6 +1,5 @@
-# Test2 functionality
+# Test2 functionality 1.1.7
 
-Version: 1.1.1
 Minimal runnable extension with c++ code.
 
 ## custom blocks

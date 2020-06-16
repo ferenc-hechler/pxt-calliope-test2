@@ -7,7 +7,9 @@ enum MyEnum {
     //% block="one"
     One,
     //% block="two"
-    Two
+    Two,
+    //% block="three"
+    Three
 }
 
 /**
@@ -17,12 +19,12 @@ enum MyEnum {
 namespace custom {
     /**
      * TODO: Beschreibe deine Funktion hier
-     * @param n Beschreibe die Parameter hier, eg: 5
      * @param s Beschreibe die Parameter hier, eg: "Hello"
+     * @param f Beschreibe die Parameter hier, eg: 5
      * @param e Beschreibe die Parameter hier
      */    
     //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
+    export function foo(s: string, f: number, e: MyEnum): void {
         // Add code here
     }
 
@@ -31,6 +33,7 @@ namespace custom {
      * @param value Beschreibe den Wert hier, eg: 5
      */    
     //% block
+    //% shim=custom::fib
     export function fib(value: number): number {
         return value <= 1 ? value : fib(value -1) + fib(value - 2);
     }

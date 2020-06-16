@@ -9,6 +9,12 @@ namespace myblock {
         return 123
     }
 
+    //% blockId=myblock_initjson
+    //% block="Json Init|string %json"
+    //% shim=myblock::initjson
+    export function initjson(json: string): void {
+    	basic.showString("sim:initjson")
+    }
 }
 
 

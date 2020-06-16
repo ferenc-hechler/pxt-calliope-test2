@@ -3,10 +3,6 @@
 Version: 1.0.8
 Minimal runnable extension with c++ code.
 
-## changes 
-
-v1.0.8: added initjson(string)
-
 ## License
 
 MIT

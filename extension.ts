@@ -3,17 +3,15 @@ namespace myblock {
 
     //% blockId=myblock_getn
     //% block="getn"
-    //% shim=myblock::getn
     export function getn(): number {
-    	basic.showString("sim-getn")
+    	basic.showString("sim:getn")
         return 123
     }
 
     //% blockId=myblock_setstr
     //% block="setstr|%str"
-    //# % shim=myblock::setstr
     export function setstr(str: string): void {
-    	basic.showString("setstr")
+    	basic.showString("sim:setstr")
     	basic.showString(str)
     }
 }

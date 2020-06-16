@@ -1,7 +1,7 @@
 {
-    "name": "pxt-calliope-test3",
-    "version": "1.0.7",
-    "description": "test3 minimal extension",
+    "name": "pxt-calliope-test2",
+    "version": "1.0.8",
+    "description": "test2 minimal extension",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -14,7 +14,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ferenc-hechler/pxt-calliope-test3.git"
+        "url": "git+https://github.com/ferenc-hechler/pxt-calliope-test2.git"
     },
     "public": true
 }

@@ -1,7 +1,7 @@
 {
     "name": "pxt-calliope-test2",
-    "version": "1.0.8",
-    "description": "test2 tiny extension",
+    "version": "1.0.9",
+    "description": "test2 tiny extension 16.05.2020 20:27",
     "license": "MIT",
     "dependencies": {
         "core": "*"
